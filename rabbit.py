@@ -6,7 +6,6 @@ for a in char_array:
     alphabet[a] = n
     n += 1
 
-
 def answer(names):
     words = {}
 
@@ -18,8 +17,8 @@ def answer(names):
 
         words[name] = total
 
-
-    sorted_names = sorted(names, key=words.__getitem__)
+    lexicagraphical_sort = sorted(names)
+    sorted_names = sorted(lexicagraphical_sort, key=words.__getitem__)
 
     previous_value = 0
     unsorted = []

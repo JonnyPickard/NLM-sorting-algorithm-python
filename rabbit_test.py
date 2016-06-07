@@ -17,5 +17,11 @@ class TestMyFunctions(unittest.TestCase):
     def test_returns_correct_string(self):
         self.assertEqual(answer(["abcdefg", "vi", "lmb", "vi", "vi", "lmb", "lmb", "fmb", "hello", "checkout"]),["checkout", "hello", "vi", "vi", "vi", "abcdefg", "lmb", "lmb", "lmb", "fmb"])
 
+    def test_returns_correct_string(self):
+        self.assertEqual(answer(["az", "by", "cx", "az", "by", "cx"]), ['cx', 'cx', 'by', 'by', 'az', 'az'])
+
 if __name__ == '__main__':
     unittest.main(exit=False)
+
+#Problem to do with the sort lexicagraphically
+#To do with popping to the output array because only tests == needs to test by value
