@@ -22,6 +22,3 @@ class TestMyFunctions(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main(exit=False)
-
-#Problem to do with the sort lexicagraphically
-#To do with popping to the output array because only tests == needs to test by value
